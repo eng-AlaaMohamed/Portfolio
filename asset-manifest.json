@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5c3e784a.css",
+    "main.js": "/Portfolio/static/js/main.7389ffe5.js",
+    "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.d4d268d11e3932a719e9.jpg",
+    "static/media/Fast-Food.jpg": "/Portfolio/static/media/Fast-Food.82b1ac4cbdff6d9c5260.jpg",
+    "static/media/pic.png": "/Portfolio/static/media/pic.0f52325168298805bf83.png",
+    "static/media/personImage.png": "/Portfolio/static/media/personImage.913a8af495395e1c2541.png",
+    "static/media/Grill.jpg": "/Portfolio/static/media/Grill.5d6b1261aee9578c7890.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.5c3e784a.css.map": "/Portfolio/static/css/main.5c3e784a.css.map",
+    "main.7389ffe5.js.map": "/Portfolio/static/js/main.7389ffe5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c3e784a.css",
+    "static/js/main.7389ffe5.js"
+  ]
+}
