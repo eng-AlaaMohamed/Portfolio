@@ -1,0 +1,29 @@
+.sideBar-list {
+    margin-top: 50px;
+}
+
+.list li {
+    margin-bottom: 30px;
+}
+
+.list li a {
+    color: var(--text-color1);
+    font-size: 18px;
+    transition: var(--transition);
+}
+
+.list li a:hover {
+    color: var(--icon-color);
+}
+
+.list li a i {
+    margin-right: 8px;
+    color: var(--icon-bg);
+}
+
+/* Media Query */
+@media (max-width: 552px) {
+    .list li {
+        margin-bottom: 20px;
+    }
+}

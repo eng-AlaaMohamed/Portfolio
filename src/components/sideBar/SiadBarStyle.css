@@ -1,0 +1,50 @@
+.siadBar {
+    min-width: 300px;
+    background-color: var(--sideBar-bg);
+    height: 100vh;
+    padding: calc( 10px + var(--padding-main));
+    z-index: 1000;
+    transition: var(--transition);
+    position: fixed;
+}
+
+.siadBar.openSideBar {
+    left: 0;
+}
+
+/* SideBar Footer */
+.sideBar-footer {
+    color: var(--color-white);
+    text-align: center;
+    margin-top: 85px;
+    font-size: 15px;
+}
+
+.sideBar-footer p {
+    margin: 0;
+}
+
+.sideBar-footer p:first-child{
+    margin-bottom: 10px;
+}
+
+.sideBar-footer p span {
+    color: var(--icon-color);
+}
+
+/* Media query */
+@media (max-width: 1330px) {
+    .siadBar {
+        left: -300px;
+    }
+}
+
+@media (max-width: 552px) {
+    .sideBar-footer  {
+        margin-top: 55px;
+        font-size: 14px;
+    }
+    .sideBar-footer p:first-child{
+        margin-bottom: 5px;
+    }
+}

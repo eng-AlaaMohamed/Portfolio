@@ -1,0 +1,52 @@
+.user-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.person-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid var(--icon-bg);
+}
+
+.person-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.person-name {
+    color: var(--color-white);
+}
+
+/* Person Social */
+.person-social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.person-social li {
+    background-color: var(--icon-bg);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: var(--transition);
+}
+
+.person-social li:hover {
+    background-color: var(--icon-color);
+}
+
+.person-social li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: var(--color-white);
+    font-size: 21px;
+}

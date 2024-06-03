@@ -1,0 +1,27 @@
+.portfolio-section {
+    padding: var(--section-padding) 30px;
+}
+
+.portfolio-section-des {
+    line-height: 1.8;
+    font-style: italic;
+    font-size: 18px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Media Query */
+@media(max-width: 576px) {
+    .portfolio-section {
+        padding: var(--section-padding) 20px;
+    }
+
+    .portfolio-section-des  {
+        font-size: 17px;
+    }
+}

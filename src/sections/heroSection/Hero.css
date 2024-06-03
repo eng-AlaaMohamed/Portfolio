@@ -1,0 +1,146 @@
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Hero Content */
+.hero-section-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.hero-section-text .person-name {
+    font-family: "Poetsen One", sans-serif;
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin: 0;
+}
+
+.hero-section-text .job-title {
+    margin: 5px 0 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hero-section-text .job-title span {
+    color: var(--border-color);
+    font-weight: normal;
+    position: relative;
+}
+
+.hero-section-text .job-title span::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 3px;
+    background-color: var(--border-color);
+    animation: fullWidth 5s infinite linear;
+}
+
+@keyframes fullWidth {
+    0% {
+        width: 0%;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}
+
+.hero-section-image {
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    box-shadow: 0 0 40px -6px black;
+    padding-top: 2px;
+    border-radius: var(--border-radius);
+}
+
+.hero-section-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Scroll To Top */
+.scroll-to-top {
+    position: fixed;
+    right: -40px;
+    bottom: 25px;
+    font-size: 35px;
+    color: var(--icon-color);
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+    z-index: 999;
+}
+.scroll-to-top.show {
+    right: 20px;
+}
+
+
+/* Media Query */
+@media (max-width: 768px) {
+    .hero-section-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-section-text {
+        margin: 0 0 20px;
+        z-index: 2;
+        position: absolute;
+    }
+
+    .hero-section-text .person-name {
+        font-size: 35px;
+    }
+
+    .hero-section-text .job-title {
+        font-size: 25px;
+        color: var(--color-white);
+    }
+
+    .hero-section-text .job-title span {
+        color: var(--icon-color);
+    }
+
+    .hero-section-text .job-title span::before {
+        background-color: var(--icon-color);
+    }
+
+    .hero-section-image {
+        border: none;
+    }
+}
+
+@media (max-width: 1190px) {
+    .hero-section-image {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media (max-Width: 576px) {
+    .hero-section {
+        overflow: hidden;
+    }
+    .hero-section-image {
+        box-shadow:none;
+    }
+}
