@@ -13,7 +13,7 @@ function AboutInfoBox() {
                 <div className='section-details-info-data'>
                     <ul className='box'>
                         <li><i className="bi bi-caret-right-fill"></i><strong>Birthday:</strong> 7 June 1999</li>
-                        <li><i className="bi bi-caret-right-fill"></i><strong>Website:</strong> www.example.com</li>
+                        <li><i className="bi bi-caret-right-fill"></i><strong>Website:</strong>eng-alaamohamed.github.io/Portfolio/</li>
                         <li><i className="bi bi-caret-right-fill"></i><strong>Phone:</strong> +20 01025218687</li>
                         <li><i className="bi bi-caret-right-fill"></i><strong>City:</strong> Beheira, Egy</li>
                     </ul>
