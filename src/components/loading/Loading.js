@@ -8,12 +8,12 @@ function Loading() {
 
     useEffect(() => {
         window.addEventListener("load", () => {
-            loading.current.classList.remove("show");
+            loading.current.classList.add("hiding");
         })
     }, []);
 
     return (
-        <div ref={loading} className='loading show'>
+        <div ref={loading} className='loading'>
             <span className="loader"></span>
         </div>
     )
