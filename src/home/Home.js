@@ -1,6 +1,7 @@
 import { ContentComponent, SideBarComopnent } from '../components/ComponentRoute';
 import { useRef } from 'react';
 import './Home.css';
+import Loading from '../components/loading/Loading';
 
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
                 <SideBarComopnent />
                 <ContentComponent />
             </div>
+            <Loading />
         </div>
     )
 }
