@@ -1,16 +1,13 @@
 import { useRef } from "react";
 import "./loading.css";
-import { useEffect } from "react";
 
-function Loading() {
+function Loading( { isLoading }) {
 
     const loading = useRef();
 
-    useEffect(() => {
-        window.addEventListener("load", () => {
-            loading.current.classList.add("hiding");
-        })
-    }, []);
+    if(isLoading === false) {
+        loading.current.classList.add("hiding");
+    }    
 
     return (
         <div ref={loading} className='loading'>
