@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3df7ce99.css",
-    "main.js": "/Portfolio/static/js/main.f520bc0d.js",
+    "main.css": "/Portfolio/static/css/main.0d237bae.css",
+    "main.js": "/Portfolio/static/js/main.ca342bf9.js",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.d4d268d11e3932a719e9.jpg",
     "static/media/graduation-project.png": "/Portfolio/static/media/graduation-project.65a04cc69abbb76c79d9.png",
     "static/media/Fast-Food.jpg": "/Portfolio/static/media/Fast-Food.82b1ac4cbdff6d9c5260.jpg",
@@ -10,11 +10,11 @@
     "static/media/E-commerce Website.png": "/Portfolio/static/media/E-commerce Website.4edca42f9ca07c2a98c4.png",
     "static/media/Grill.jpg": "/Portfolio/static/media/Grill.5d6b1261aee9578c7890.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.3df7ce99.css.map": "/Portfolio/static/css/main.3df7ce99.css.map",
-    "main.f520bc0d.js.map": "/Portfolio/static/js/main.f520bc0d.js.map"
+    "main.0d237bae.css.map": "/Portfolio/static/css/main.0d237bae.css.map",
+    "main.ca342bf9.js.map": "/Portfolio/static/js/main.ca342bf9.js.map"
   },
   "entrypoints": [
-    "static/css/main.3df7ce99.css",
-    "static/js/main.f520bc0d.js"
+    "static/css/main.0d237bae.css",
+    "static/js/main.ca342bf9.js"
   ]
 }
