@@ -9,7 +9,7 @@ const Skills = () => {
             <ul className='list-skills'>
                 <li>
                     <span>Skills</span>
-                    <p>JavaScript – Html5 – Css3 – Node js</p>
+                    <p>HTML5 – CSS3 – Javascript – Node js</p>
                 </li>
                 <li>
                     <span>Databases</span>
