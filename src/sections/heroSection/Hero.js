@@ -24,7 +24,7 @@ function Hero() {
       <div className='hero-section-content'>
         <div className='hero-section-text'>
           <h1 className='person-name'>Alaa Mohamed</h1>
-          <p className='job-title'>I'm <span>Web developer</span></p>
+          <p className='job-title'>I'm <span>Frontend Developer</span></p>
         </div>
         <div className='hero-section-image'>
           <img src={image} alt='person image' />

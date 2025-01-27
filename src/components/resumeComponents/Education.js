@@ -13,8 +13,7 @@ const Education = () => {
                         <p>
                             <strong>( Higher Institute of Computer King Marriott
                                 Academy )</strong>
-                            Business Administration / Management
-                            Systems and Information
+                            Bachelor of  Management information system
                         </p>
                     </li>
                 </ul>

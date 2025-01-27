@@ -47,7 +47,7 @@ function ContactUs() {
                     });
                     Toast.fire({
                         icon: "success",
-                        title: "Signed in successfully"
+                        title: "Sent successfully"
                     });
                 },
                 (error) => {
@@ -63,7 +63,7 @@ function ContactUs() {
             </div>
             <div className='phone-number'>
                 <div className='phone-number-icon'><i className="bi bi-telephone-fill"></i></div>
-                <span className='number'><strong>+20</strong> 01025218687</span>
+                <span className='number'><strong>+20</strong> 01121865085</span>
             </div>
             <div className='cnotact-section-content'>
                 <form className='contact-form' ref={form} onSubmit={sendEmail}>

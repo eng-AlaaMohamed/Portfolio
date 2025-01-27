@@ -33,9 +33,12 @@
     margin-top: var(--marggin-main);
 }
 
+.list-skills li {
+    margin-bottom: 10px;
+}
+
 .list-skills li span {
     font-size: 20px;
-    font-weight: bold;
     margin-right: var(--marggin-main);
     position: relative;
 }
@@ -53,12 +56,12 @@
     transform: translateY(-50%);
 }
 
-.list-skills li p {
+/* .list-skills li p {
     font-size: 18px;
     color: var(--text-color2);
     font-style: italic;
     margin-top: 10px;
-}
+} */
 
 /* Media Query */
 @media (max-width: 576px){
