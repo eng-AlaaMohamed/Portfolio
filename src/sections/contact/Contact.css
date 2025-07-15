@@ -78,6 +78,10 @@
     color: var(--color-white);
 }
 
+.contact-form .snd-btn:hover {
+    background-color: #1488be;
+}
+
 .cnotact-section-image img {
     width: 350px;
     height: 430px;

@@ -9,15 +9,10 @@ function AboutSection() {
         <h2>About</h2>
       </div>
       <p className='about-me'>
-        I’m Alaa Mohamed, a passionate Front-End Developer with 4+ years of experience crafting responsive,
-        user-friendly, and visually appealing web applications.
-        With a strong foundation in HTML5, CSS3, and JavaScript,
-        I specialize in creating intuitive interfaces that provide seamless user experiences across all devices.
-
-        I have hands-on expertise in modern frameworks like React and design systems like Bootstrap,
-        utilizing Flexbox, Grid, and Media Queries to ensure responsive and adaptive designs. My portfolio
-        includes diverse projects, from freelancing platforms to e-commerce websites, showcasing my ability
-        to turn creative ideas into functional realities.
+        Passionate Front-End Developer with over 4 years of hands-on experience in building responsive, user-centric
+        web applications using React.js, JavaScript, HTML5, CSS3, and Redux. Skilled in developing cross-browser
+        interfaces, integrating RESTful APIs, and collaborating in Agile teams. Proficient in Git version control and
+        UI/UX principles with a proven track record of delivering high-quality solutions
       </p>
       <AboutInfoBox />
     </div>

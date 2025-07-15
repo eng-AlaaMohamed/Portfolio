@@ -1,5 +1,5 @@
 import sectionImage from '../../images/personImage.png';
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import './Contact.css'
@@ -32,6 +32,10 @@ function ContactUs() {
             })
             .then(
                 () => {
+                    setName('');
+                    setEmail('');
+                    setMessage('');
+
                     const Toast = Swal.mixin({
                         toast: true,
                         position: "top",
@@ -68,11 +72,11 @@ function ContactUs() {
             <div className='cnotact-section-content'>
                 <form className='contact-form' ref={form} onSubmit={sendEmail}>
                     <label>Name</label>
-                    <input ref={inputName} onChange={(e) => setName(e.target.value)} type="text" name="from_name" />
+                    <input ref={inputName} value={name} onChange={(e) => setName(e.target.value)} type="text" name="from_name" />
                     <label>Email</label>
-                    <input ref={inputEmail} onChange={(e) => setEmail(e.target.value)} type="email" name="from_email" />
+                    <input ref={inputEmail} value={email} onChange={(e) => setEmail(e.target.value)} type="email" name="from_email" />
                     <label>Message</label>
-                    <textarea ref={inputMessage} onChange={(e) => setMessage(e.target.value)} name="message" />
+                    <textarea ref={inputMessage} value={message} onChange={(e) => setMessage(e.target.value)} name="message" />
                     <input className='snd-btn' type="submit" value="Send" />
                 </form>
                 <div className='cnotact-section-image'>

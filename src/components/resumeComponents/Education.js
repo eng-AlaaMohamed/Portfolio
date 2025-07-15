@@ -9,11 +9,10 @@ const Education = () => {
             <div className='education-content'>
                 <ul className='education-box'>
                     <li>
-                        <span>2020 / 2024</span>
+                        <span>2021 / 2024</span>
                         <p>
-                            <strong>( Higher Institute of Computer King Marriott
-                                Academy )</strong>
-                            Bachelor of  Management information system
+                            <strong>( King Marriott Academy )</strong>
+                            Bachelor of Management Information Systems
                         </p>
                     </li>
                 </ul>

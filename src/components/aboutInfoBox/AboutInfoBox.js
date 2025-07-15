@@ -14,10 +14,10 @@ function AboutInfoBox() {
                     <ul className='box'>
                         <li><i className="bi bi-caret-right-fill"></i><strong>Birthday:</strong> 7 June 1999</li>
                         <li><i className="bi bi-caret-right-fill"></i><strong>Phone:</strong> +20 01121865085</li>
-                        <li><i className="bi bi-caret-right-fill"></i><strong>City:</strong> Beheira, Egy</li>
+                        <li><i className="bi bi-caret-right-fill"></i><strong>City:</strong>Alexandria, Egypt</li>
                     </ul>
                     <ul className='box'>
-                        <li><i className="bi bi-caret-right-fill"></i><strong>Age:</strong> 25</li>
+                        <li><i className="bi bi-caret-right-fill"></i><strong>Age:</strong> 25 year</li>
                         <li><i className="bi bi-caret-right-fill"></i><strong>Degree:</strong> Master</li>
                         <li><i className="bi bi-caret-right-fill"></i><strong>Freelance:</strong> Available</li>
                     </ul>
