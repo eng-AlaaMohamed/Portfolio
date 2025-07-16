@@ -8,13 +8,16 @@ const Skills = () => {
             </div>
             <ul className='list-skills'>
                 <li>
-                    <span>HTML5</span>
+                    <h3>- Front-End</h3>
+                    <span>React.js, Redux, HTML5, CSS3, Bootstrap</span>
                 </li>
                 <li>
-                    <span>Css3 / Bootstrap</span>
+                    <h3>- Back-End</h3>
+                    <span>Node.js, Express.js, MongoDB</span>
                 </li>
                 <li>
-                    <span>Javascript / React js</span>
+                    <h3>- Tools</h3>
+                    <span>Git, GitHub</span>
                 </li>
             </ul>
         </div>
